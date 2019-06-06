@@ -51,12 +51,12 @@ THANKS
 
   gem.add_runtime_dependency 'faraday', '~> 0.9',  '>= 0.9.0'
   gem.add_runtime_dependency 'faraday_middleware', '~> 0.9',    '>= 0.9.1'
-  gem.add_runtime_dependency 'multi_json',         '~> 1.10.0', '>= 1.10.1'
+  gem.add_runtime_dependency 'multi_json',         '~> 1.12.0', '>= 1.12.1'
   gem.add_runtime_dependency 'jruby-openssl',      '>= 0.7.7'    if RUBY_PLATFORM == 'java'
   gem.add_runtime_dependency 'mechanize','~> 2.7', '>= 2.7.3'
   gem.add_runtime_dependency 'docopt',   '~> 0.5', '>= 0.5.0'
   gem.add_runtime_dependency 'highline', '~> 1.6', '>= 1.6.21'
-  
+
   gem.add_development_dependency 'rake',      '~> 10.3', '>= 10.3.1'
   gem.add_development_dependency 'rspec',     '~> 2.14', '>= 2.14.1'
   gem.add_development_dependency 'pry',       '~> 0.9',  '>= 0.9.12.6'
@@ -71,7 +71,7 @@ THANKS
   unless RUBY_PLATFORM == 'java'
     gem.add_development_dependency 'oj',              '~> 2.8', '>= 2.8.1'
     gem.add_development_dependency 'yajl-ruby',       '~> 1.2', '>= 1.2.0'
-    gem.add_development_dependency 'eventmachine',    '~> 1.0', '>= 1.0.3' 
+    gem.add_development_dependency 'eventmachine',    '~> 1.2', '>= 1.2.7'
     gem.add_development_dependency 'em-synchrony',    '~> 1.0', '>= 1.0.3'
     gem.add_development_dependency 'em-http-request', '~> 1.1', '>= 1.1.2'
     gem.add_development_dependency 'patron',          '~> 0.4', '>= 0.4.18'
